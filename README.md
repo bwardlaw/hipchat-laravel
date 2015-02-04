@@ -1,4 +1,4 @@
-## hernandev/hipchat-laravel
+## bwardlaw/hipchat-laravel
 
 [![Latest Stable Version](https://poser.pugx.org/hernandev/hipchat-laravel/version.svg)](https://packagist.org/packages/hernandev/hipchat-laravel)
 [![Total Downloads](https://poser.pugx.org/hernandev/hipchat-laravel/downloads.svg)](https://packagist.org/packages/hernandev/hipchat-laravel)
@@ -6,7 +6,7 @@
 
 
 
-This a [HipChat PHP Client](https://github.com/hipchat/hipchat-php) wrapper for Laravel 4 and 5
+This a [HipChat PHP Client](https://github.com/hipchat/hipchat-php) wrapper for Laravel 4 and 5 forked from Hernandev to change some configurations issues.
 
 
 ### Installation
