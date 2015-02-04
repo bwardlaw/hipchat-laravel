@@ -23,21 +23,21 @@ class HipChat
 
     public function __construct()
     {
-        if (Config::has('hipchat-laravel::hipchat.api_token')) {
-            $this->api_token = Config::get('hipchat-laravel::hipchat.api_token');
+        if (Config::has('services.hipchat.api_token')) {
+            $this->api_token = Config::get('services.hipchat.api_token');
         }
 
         if ($this->api_token) {
             $this->hc = new HipChatOriginal($this->api_token);
         }
 
-        if (Config::has('hipchat-laravel::hipchat.app_name')) {
-            $this->app_name = Config::get('hipchat-laravel::hipchat.app_name');
+        if (Config::has('services.hipchat.app_name')) {
+            $this->app_name = Config::get('services.hipchat.app_name');
 
         }
 
-        if (Config::has('hipchat-laravel::hipchat.default_room')) {
-            $this->room = Config::get('hipchat-laravel::hipchat.default_room');
+        if (Config::has('services.hipchat.default_room')) {
+            $this->room = Config::get('services.hipchat.default_room');
         }
     }
 
