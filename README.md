@@ -51,19 +51,15 @@ This a [HipChat PHP Client](https://github.com/hipchat/hipchat-php) wrapper for 
     ),
     ```
     
-    
-- To Publish the configuration files you will need, run:
 
-    ```
-    php artisan config:publish hernandev/hipchat-laravel
-    ```
-
-- Edit `app/config/packages/hernandev/hipchat-laravel/config.php` file updating it your credentials / configurations:
+- Edit `app/config/services.php` file updating it your credentials / configurations:
 
     ```php
-    'api_token' => 'insert_your_api_token',
-    'app_name' => 'Your App Name',
-    'default_room' => null, // this is optional
+    'hipchat' => array(
+        'api_token' => 'insert_your_api_token',
+        'app_name' => 'Your App Name',
+        'default_room' => null, // this is optional
+    )
     
     ```
     
