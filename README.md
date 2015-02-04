@@ -11,13 +11,13 @@ This a [HipChat PHP Client](https://github.com/hipchat/hipchat-php) wrapper for 
 
 ### Installation
 
-- Include `"hernandev/hipchat-laravel"` inside the `"require"` section of `composer.json` file:
+- Include `"bwardlaw/hipchat-laravel"` inside the `"require"` section of `composer.json` file:
 
     ```php
         ...
         "require": {
             ...,
-            "hernandev/hipchat-laravel": "1.0.*"
+            "bwardlaw/hipchat-laravel": "1.0.*"
         }
         ...
     
